@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #d3d3d3;
+}
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.namePlayer {
+  font-size: 36px;
+}
+.activePl {
+  color: #19b83c;
+  text-shadow: 0 0 3px #2e8b57;
+}
+.inactivePl {
+  color: #cd5c5c;
+  text-shadow: 0 0 3px #cd5c5c;
+}
+.table {
+  height: 500px;
+  width: 500px;
+  /* background-color: #2e8b57; */
+  /* border-radius: 30px;
+  border: 20px solid #8b4513;
+  box-shadow: 1px 1px 10px; */
+}
+.field {
+  width: 100%;
+  height: 238px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Player {
+  border-top: 5px solid;
+  border-left: 5px solid;
+  border-right: 5px solid;
+  background-color: #29b867;
+  border-radius: 30px 30px 0 0;
+}
+.AI {
+  border-bottom: 5px solid;
+  border-left: 5px solid;
+  border-right: 5px solid;
+  background-color: #cd5c5c;
+  border-radius: 0 0 30px 30px;
+}
+.card {
+  background-color: rgb(137, 242, 242);
+  width: 60px;
+  height: 120px;
+  border: solid 2px rgb(87, 87, 87);
+  box-shadow: 1px 1px 10px;
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 48px;
+  text-align: center;
+}
+.attacking {
+  height: 240px;
+  width: 120px;
+  margin-left: 40px;
+  font-size: 500%;
+}
+.AI > .card {
+  cursor: pointer;
+}
+
+.middle {
+  width: 100%;
+  color: #9b9797;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 24px;
+}
+/* .card:hover {
+  color: rgb(137, 242, 242);
+  cursor: pointer;
+} */
